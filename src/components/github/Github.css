@@ -1,66 +1,71 @@
-.services_container
+
+.github_container
 {
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap:3rem;
 }
-.service
+.github
 {
-background: var(--color-bg-variant);
+background: transparent;
 border-radius: 0 0 2rem 2rem;
 border: 1px solid var(--color-primary);
 height: fit-content;
 transition: var(--transition);
+cursor: pointer;
+
 }
-.service:hover
+.github:hover
 {
 background: transparent;
 border-color:  var(--color-primary-variant);
 cursor:default;
+
 }
-.service_head
+.github_head
 {
     background: var(--color-primary);
     padding: 2rem;
 
     border-radius: 0  0 2rem 2rem ;
+  
 
 }
-.service_head h3
+.github_head h3
 {
     font-size: 1rem;
     color: var(--color-bg);
     text-align: center;
 
 }
-.service_list
+.github_list
 {
    padding: 2rem; 
 }
-.service_list li
+.github_list li
 {
     display: flex;
     gap:1rem;
     margin-bottom:0.8rem;
 }
-.service_list-icon
+.github_list-icon
 {
     color: var(--color-primary);
 
 }
-.service_list p
+.github_list p
 {
     font-size:0.9rem
 }
 @media screen  and (max-width: 1024px)
 {
-    .services_container
+    .github_container
     {
         grid-template-columns: 1fr 1fr;
         gap:2rem;
 
     }
-    .service
+    .github
     {
         height: auto;
     }
@@ -68,11 +73,20 @@ cursor:default;
 
 @media screen  and (max-width: 600px)
 {
-    .services_container
+    .githubs_container
     {
         grid-template-columns: 1fr;
         gap:1.5rem;
 
     }
+    .github_head
+{
+    background: var(--color-primary);
+    padding: 2rem;
+
+    border-radius: 0  0 2rem 2rem ;
+   height: 0.1rem;;
+
+}
   
 }

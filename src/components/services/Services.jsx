@@ -1,6 +1,7 @@
 import React from 'react'
 import './Services.css'
 import {BsCheckLg} from 'react-icons/bs'
+import { BsGithub } from 'react-icons/bs'
 const Services = () => 
 {
   return (
@@ -86,22 +87,22 @@ const Services = () =>
    <ul className='service_list'>
    <li>
    <BsCheckLg className='service_list-icon skills-card-img'/>
-   <p className='skills-card-name'>Effective communication and collaboration.</p>
+   <p>Effective communication and collaboration.</p>
    </li>
 
    <li>
    <BsCheckLg className='service_list-icon skills-card-img'/>
-   <p className='skills-card-name'>Problem-solving.</p>
+   <p>Problem-solving.</p>
    </li>
 
    <li>
    <BsCheckLg className='service_list-icon skills-card-img'/>
-   <p className='skills-card-name'>Attention to Detail.</p>
+   <p>Attention to Detail.</p>
    </li>
 
    <li>
    <BsCheckLg className='service_list-icon skills-card-img'/>
-   <p className='skills-card-name'>Active listening and understanding.</p>
+   <p>Active listening and understanding.</p>
    </li>
 
    <li>
@@ -109,8 +110,8 @@ const Services = () =>
    <p>Professionalism and work ethics.</p>
    </li>
    <li>
-   <BsCheckLg className='service_list-icon skills-card-img'/>
-   <p className='skills-card-name'>Teamwork and collaboration skills.</p>
+   <BsCheckLg className='service_list-icon '/>
+   <p>Teamwork and collaboration skills.</p>
    </li>
 
    

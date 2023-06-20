@@ -88,11 +88,11 @@ const Portfolio =()=>
  {
  
   return (
-  <section id='portfolio projects' className='nav-link projects'>
+  <section id='portfolio'>
   <h5> My Recent Work</h5>
-  <h2>Portfolio</h2>
+  <h2>Projects</h2>
 
-<div className='container portfolio_container project-card'>
+<div className='container portfolio_container'>
 {
   data.map(({id ,image ,title ,Github ,Demo})=>
   {
@@ -101,11 +101,11 @@ const Portfolio =()=>
 <div className='portfolio_item-image'>
 <img src={image} alt={title}/>
 </div>
-<h3 className='project-title'>{title}</h3>
+<h3>{title}</h3>
 <div className='portfolio_item-cta'>
 
-<a href={Github} className='btn project-tech-stack project-github-link' target='_blank'>Github</a>
-<a href={Demo} className='btn btn-primary project-description project-deployed-link' target='_blank'>LiveDemo</a>
+<a href={Github} className='btn' target='_blank'>Github</a>
+<a href={Demo} className='btn btn-primary' target='_blank'>LiveDemo</a>
 </div>
 
 </article>

@@ -9,6 +9,7 @@ import Portfolio from '../components/portfolio/Portfolio'
 import Contact from '../components/contact/Contact'
 import Testimonial from '../components/testimonial/Testimonial'
 import Footer from '../components/footer/Footer'
+import Github from '../components/github/Github'
 const App = () => {
   return (
     <div id='home' className='nav-link home'>
@@ -16,7 +17,9 @@ const App = () => {
       <Navbar/>
       <About/>
       <Experience/>
+      <Github/>
       <Services/>
+     
       <Portfolio/>
       <Testimonial/>
       <Contact/>
