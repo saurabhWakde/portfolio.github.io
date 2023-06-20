@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.e1818c47.css",
-    "main.js": "/static/js/main.d266ce60.js",
+    "main.js": "/static/js/main.a46ab123.js",
     "static/media/plantorder2.png": "/static/media/plantorder2.21ae459d2eb83eb66e82.png",
     "static/media/plantorder.png": "/static/media/plantorder.58a3437f4f3dca1b0532.png",
     "static/media/netmeds2.png": "/static/media/netmeds2.5a9d2b85a33c11d68ba7.png",
@@ -18,10 +18,10 @@
     "static/media/netmeds3.png": "/static/media/netmeds3.f06d70f5ceaa3adce93b.png",
     "index.html": "/index.html",
     "main.e1818c47.css.map": "/static/css/main.e1818c47.css.map",
-    "main.d266ce60.js.map": "/static/js/main.d266ce60.js.map"
+    "main.a46ab123.js.map": "/static/js/main.a46ab123.js.map"
   },
   "entrypoints": [
     "static/css/main.e1818c47.css",
-    "static/js/main.d266ce60.js"
+    "static/js/main.a46ab123.js"
   ]
 }
